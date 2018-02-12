@@ -1,0 +1,1 @@
+disregard Task 2 movement after the first round, until graspers return to starting pos.
