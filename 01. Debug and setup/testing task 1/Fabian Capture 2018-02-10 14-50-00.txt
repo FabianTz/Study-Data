@@ -1,4 +1,4 @@
-
+Pattern, Position, Event, EventNo, Timestamp
 0,0,TASK_START,0,431564
 1,0,PATTERN_START,0,431565
 1, 1, SUCCESS, 0, 1896
