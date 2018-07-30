@@ -31,7 +31,6 @@ if __name__ == "__main__":
 
     times = np.divide(np.subtract(raw_data['Frame'],raw_data['Frame'][0]),40)
 
-
     Tx = []
     Ty = []
     Tz = []

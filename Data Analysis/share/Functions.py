@@ -59,7 +59,7 @@ def pulldataif(statearray, statearray_1, dataarray, criterion, criterion_1):
     return outputarray
 
 
-def getvectorcomponents(theta, phi, r=1):
+def getvectorcomponents(theta,phi,r=1):
 
     u = []
     v = []
@@ -80,7 +80,7 @@ def getvectorcomponents(theta, phi, r=1):
     return u, v, w
 
 
-def getdotproduct(x1, y1, z1, x2, y2, z2):
+def getdotproduct(x1,y1,z1,x2,y2,z2):
 
     dots = []
 
@@ -88,41 +88,3 @@ def getdotproduct(x1, y1, z1, x2, y2, z2):
         inner = np.inner([x1[i[0]], y1[i[0]], z1[i[0]]], [x2[i[0]],y2[i[0]], z2[i[0]]])
         dots.append(inner)
     return dots
-
-
-def badfits(Tx0, Ty0, Tz0, Theta0, Phi0, index0, Txn, Tyn, Tzn, Thetan, Phin, indexn):
-
-    # how many consecutive bad frames?
-    n = indexn - index0
-
-    # that is, I need to divide by n+1
-    # div = n + 1
-
-    # get the deltas
-    DeltaTx = Txn - Tx0
-    DeltaTy = Tyn - Ty0
-    DeltaTz = Tzn - Tz0
-    DeltaTheta = Thetan - Theta0
-    DeltaPhi = Phin - Phi0
-
-    # divide deltas by div to get the delta for each segment
-
-    SegmentDeltaTx = DeltaTx / n # div
-    SegmentDeltaTy = DeltaTy / n # div
-    SegmentDeltaTz = DeltaTz / n # div
-    SegmentDeltaTheta = DeltaTheta / n # div
-    SegmentDeltaPhi = DeltaPhi / n # div
-
-    # create arrays to store the interpolated values and interpolate
-
-    Tx_interpolated = np.linspace(Tx0, Txn, n, endpoint=False)
-    Ty_interpolated = np.linspace(Ty0, Tyn, n, endpoint=False)
-    Tz_interpolated = np.linspace(Tz0, Tzn, n, endpoint=False)
-    Theta_interpolated = np.linspace(Theta0, Thetan, n, endpoint=False)
-    Phi_interpolated = np.linspace(Phi0, Phin, n, endpoint=False)
-
-    # return an ndarray for the values
-    ret = np.array([Tx_interpolated,Ty_interpolated,Tz_interpolated,Theta_interpolated,Phi_interpolated])
-    ret = np.transpose(ret)
-    return ret
-
