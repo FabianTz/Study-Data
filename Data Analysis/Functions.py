@@ -12,9 +12,9 @@ def grabdata():
     file_path = filedialog.askopenfilename()
 
     # be smart about selecting the correct delimiter, be it a comma or tab sep
-    delim = ","
+    delim = b','
     if file_path[-4:] == ".tsv":
-        delim = "\t"
+        delim = b'\t'
         print("\n.tsv file detected, switching delimiter \n")
 
     data = np.genfromtxt(file_path, delimiter=delim, names=True, dtype=None, encoding=None)
