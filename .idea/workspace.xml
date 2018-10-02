@@ -8,11 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="082324a3-0e13-45b9-b498-8381fe4c2e2d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Data Analysis/FunctionsPandas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Analysis/PathLengthExtractionPandas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Analysis/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Analysis/Path length extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Path length extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/120218 3D/Participant 01/Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/120218 3D/Participant 01/Output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Analysis/PathLengthExtractionPandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/PathLengthExtractionPandas.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +35,11 @@
           <file leaf-file-name="PathLengthExtractionPandas.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Data Analysis/PathLengthExtractionPandas.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="9" selection-start-column="9" selection-end-column="9" />
+                <state relative-caret-position="440">
+                  <caret line="166" column="47" lean-forward="true" selection-start-line="166" selection-start-column="47" selection-end-line="166" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -51,7 +52,7 @@
             <entry file="file://$PROJECT_DIR$/Data Analysis/FunctionsPandas.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret selection-end-line="1" selection-end-column="30" />
+                  <caret selection-end-line="4" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
                   </folding>
@@ -63,7 +64,7 @@
             <entry file="file://$PROJECT_DIR$/Data Analysis/Data visualisation.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="72">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="39" />
+                  <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -71,8 +72,8 @@
           <file leaf-file-name="Path length extraction.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Data Analysis/Path length extraction.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="270">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -83,7 +84,7 @@
           <file leaf-file-name="Tendon_1_data.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../Catheter_Tension_Rig/data/Tendon_1_data.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
+                <state relative-caret-position="4986">
                   <caret line="282" column="48" selection-start-line="282" selection-start-column="48" selection-end-line="282" selection-end-column="48" />
                 </state>
               </provider>
@@ -93,7 +94,7 @@
             <entry file="file://$PROJECT_DIR$/Data Analysis/Functions.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="432">
-                  <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+                  <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
                   </folding>
@@ -111,6 +112,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>len</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -290,11 +296,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32979852" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5296875" side_tool="true" weight="0.2848034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53020835" side_tool="true" weight="0.2848034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4703125" weight="0.2848034" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46979168" weight="0.2848034" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,7 +348,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="56" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -386,13 +392,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data Analysis/interpolationtesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Analysis/Functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2220">
@@ -656,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Analysis/Path length extraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="270">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -666,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Catheter_Tension_Rig/data/Tendon_1_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="4986">
           <caret line="282" column="48" selection-start-line="282" selection-start-column="48" selection-end-line="282" selection-end-column="48" />
         </state>
       </provider>
@@ -674,7 +673,7 @@
     <entry file="file://$PROJECT_DIR$/Data Analysis/Functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -726,24 +725,34 @@
     <entry file="file://$PROJECT_DIR$/Data Analysis/Data visualisation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="39" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Analysis/FunctionsPandas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="1" selection-end-column="30" />
+          <caret selection-end-line="4" selection-end-column="19" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data Analysis/PathLengthExtractionPandas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="440">
+          <caret line="166" column="47" lean-forward="true" selection-start-line="166" selection-start-column="47" selection-end-line="166" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

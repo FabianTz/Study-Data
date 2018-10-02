@@ -1,0 +1,156 @@
+
+
+
+File created: 05:56PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/Participant 24 Task1 Tracking_000.csv 
+Data shape: 17488 rows by 14 columns
+ 
+Column names: 
+ ['Tools' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers'] 
+
+Dataset contains tracking data from 1 sensors:
+Sensor 0: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+
+Data contains 17488 bad values (100.00%). Discarding...Sensor path lengths:
+Sensor 0: 0.000 meters
+
+
+
+File created: 05:57PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/Participant 24 Task2 Tracking_000.csv 
+Data shape: 25293 rows by 14 columns
+ 
+Column names: 
+ ['Tools' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers'] 
+
+Dataset contains tracking data from 1 sensors:
+Sensor 0: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+
+Data contains 25293 bad values (100.00%). Discarding...Sensor path lengths:
+Sensor 0: 0.000 meters
+
+
+
+File created: 05:57PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/Participant 28 Task2  Tracking_000.csv 
+Data shape: 31193 rows by 14 columns
+ 
+Column names: 
+ ['Tools' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers'] 
+
+Dataset contains tracking data from 1 sensors:
+Sensor 0: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+
+Data contains 31193 bad values (100.00%). Discarding...Sensor path lengths:
+Sensor 0: 0.000 meters
+
+
+
+File created: 05:57PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/participant19 task 1 tracking_000.csv 
+Data shape: 42006 rows by 27 columns
+ 
+Column names: 
+ ['Tools' 'Port 11: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame.1' 'Face.1' 'State.1' 'Q0.1' 'Qx.1' 'Qy.1' 'Qz.1' 'Tx.1' 'Ty.1'
+ 'Tz.1' 'Error.1' 'Markers.1'] 
+
+Dataset contains tracking data from 2 sensors:
+Sensor 0: Port 11: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0
+Sensor 1: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+
+Data contains 1072 bad values (2.55%). Discarding...Sensor path lengths:
+Sensor 0: 0.322 meters
+Sensor 1: 42.581 meters
+
+
+
+File created: 06:02PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/participant14 task 1 tracking_000.csv 
+Data shape: 25853 rows by 27 columns
+ 
+Column names: 
+ ['Tools' 'Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers' 'Port 10: NDI-MF2 610016 T6a0-L00018  s/n:38C3F80A Channel:0'
+ 'Frame.1' 'Face.1' 'State.1' 'Q0.1' 'Qx.1' 'Qy.1' 'Qz.1' 'Tx.1' 'Ty.1'
+ 'Tz.1' 'Error.1' 'Markers.1'] 
+
+Dataset contains tracking data from 2 sensors:
+Sensor 0: Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0
+Sensor 1: Port 10: NDI-MF2 610016 T6a0-L00018  s/n:38C3F80A Channel:0
+
+Data contains 25853 bad values (100.00%). Discarding...Sensor path lengths:
+Sensor 0: 0.000 meters
+Sensor 1: 0.000 meters
+
+
+
+File created: 06:03PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/participant33 task 2 tracking_000.csv 
+Data shape: 38382 rows by 27 columns
+ 
+Column names: 
+ ['Tools' 'Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame.1' 'Face.1' 'State.1' 'Q0.1' 'Qx.1' 'Qy.1' 'Qz.1' 'Tx.1' 'Ty.1'
+ 'Tz.1' 'Error.1' 'Markers.1'] 
+
+Dataset contains tracking data from 2 sensors:
+Sensor 0: Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0
+Sensor 1: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+
+Data contains 38382 bad values (100.00%). Discarding...Sensor path lengths:
+Sensor 0: 0.000 meters
+Sensor 1: 0.000 meters
+
+
+
+File created: 06:03PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/participant33 task 1 tracking_000.csv 
+Data shape: 29477 rows by 27 columns
+ 
+Column names: 
+ ['Tools' 'Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame.1' 'Face.1' 'State.1' 'Q0.1' 'Qx.1' 'Qy.1' 'Qz.1' 'Tx.1' 'Ty.1'
+ 'Tz.1' 'Error.1' 'Markers.1'] 
+
+Dataset contains tracking data from 2 sensors:
+Sensor 0: Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0
+Sensor 1: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+
+Data contains 21 bad values (0.07%). Discarding...Sensor path lengths:
+Sensor 0: 0.321 meters
+Sensor 1: 20.394 meters
+
+
+
+File created: 06:04PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/19-03-18Novice/2D/participant31 task 1 tracking_000.csv 
+Data shape: 4869 rows by 27 columns
+ 
+Column names: 
+ ['Tools' 'Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0'
+ 'Frame' 'Face' 'State' 'Q0' 'Qx' 'Qy' 'Qz' 'Tx' 'Ty' 'Tz' 'Error'
+ 'Markers' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame.1' 'Face.1' 'State.1' 'Q0.1' 'Qx.1' 'Qy.1' 'Qz.1' 'Tx.1' 'Ty.1'
+ 'Tz.1' 'Error.1' 'Markers.1'] 
+
+Dataset contains tracking data from 2 sensors:
+Sensor 0: Port 12: NDI-MF2 610060   CAe0-L00021  s/n:38AA8800 Channel:0
+Sensor 1: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+
+Data contains 12 bad values (0.25%). Discarding...Sensor path lengths:
+Sensor 0: 0.057 meters
+Sensor 1: 5.558 meters

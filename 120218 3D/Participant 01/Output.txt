@@ -1,1 +1,58 @@
-File created: 08:35PM on October 01, 2018 
+
+
+
+File created: 05:52PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/120218 3D/Participant 01/Participant 01 Task1 Tracking_000.tsv 
+
+.tsv file detected, switching delimiter 
+Data shape: 11487 rows by 40 columns
+ 
+Column names: 
+ ['Tools' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame' 'Face' 'State' 'Angle' 'Latitude' 'Longitude' 'Spin' 'Tx' 'Ty'
+ 'Tz' 'Error' 'Markers'
+ 'Port 11: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0' 'Frame.1'
+ 'Face.1' 'State.1' 'Angle.1' 'Latitude.1' 'Longitude.1' 'Spin.1' 'Tx.1'
+ 'Ty.1' 'Tz.1' 'Error.1' 'Markers.1'
+ 'Port 12: NDI-MF2 610016 T6a0-L00018  s/n:38C3F80A Channel:0' 'Frame.2'
+ 'Face.2' 'State.2' 'Angle.2' 'Latitude.2' 'Longitude.2' 'Spin.2' 'Tx.2'
+ 'Ty.2' 'Tz.2' 'Error.2' 'Markers.2'] 
+
+Dataset contains tracking data from 3 sensors:
+Sensor 0: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+Sensor 1: Port 11: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+Sensor 2: Port 12: NDI-MF2 610016 T6a0-L00018  s/n:38C3F80A Channel:0
+
+Data contains 697 bad values (6.07%). Discarding...Sensor path lengths:
+Sensor 0: 5.928 meters
+Sensor 1: 6.153 meters
+Sensor 2: 1.794 meters
+
+
+
+File created: 05:53PM on October 02, 2018 
+Getting data from: C:/Users/Fabian/Documents/GitHub/Study-Data/120218 3D/Participant 01/Participant 01 Task1 Tracking_000.tsv 
+
+.tsv file detected, switching delimiter 
+Data shape: 11487 rows by 40 columns
+ 
+Column names: 
+ ['Tools' 'Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0'
+ 'Frame' 'Face' 'State' 'Angle' 'Latitude' 'Longitude' 'Spin' 'Tx' 'Ty'
+ 'Tz' 'Error' 'Markers'
+ 'Port 11: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0' 'Frame.1'
+ 'Face.1' 'State.1' 'Angle.1' 'Latitude.1' 'Longitude.1' 'Spin.1' 'Tx.1'
+ 'Ty.1' 'Tz.1' 'Error.1' 'Markers.1'
+ 'Port 12: NDI-MF2 610016 T6a0-L00018  s/n:38C3F80A Channel:0' 'Frame.2'
+ 'Face.2' 'State.2' 'Angle.2' 'Latitude.2' 'Longitude.2' 'Spin.2' 'Tx.2'
+ 'Ty.2' 'Tz.2' 'Error.2' 'Markers.2'] 
+
+Dataset contains tracking data from 3 sensors:
+Sensor 0: Port 10: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+Sensor 1: Port 11: NDI-MF2 610016 T6A0-L00051  s/n:3A913800 Channel:0
+Sensor 2: Port 12: NDI-MF2 610016 T6a0-L00018  s/n:38C3F80A Channel:0
+
+Data contains 697 bad values (6.07%). Discarding...Sensor path lengths:
+Sensor 0: 5.928 meters
+Sensor 1: 6.153 meters
+Sensor 2: 1.794 meters

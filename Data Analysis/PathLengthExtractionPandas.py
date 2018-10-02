@@ -21,15 +21,15 @@ if __name__ == "__main__":
     # create a file in the same directory to log the output of this code
     output_path = os.path.dirname(os.path.abspath(file_path))
     output_path = output_path+"\\Output.txt"
-    datestring = "File created: {} \n".format(datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
+    datestring = "\n\n\nFile created: {} \n".format(datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y"))
 
-    text_file = open(output_path, "w")
+    text_file = open(output_path, "a")
     text_file.write(datestring)
     text_file.close()
 
     getdatastring = "Getting data from: {} \n".format(file_path)
 
-    text_file = open(output_path, "w")
+    text_file = open(output_path, "a")
     text_file.write(getdatastring)
     text_file.close()
 
@@ -42,7 +42,7 @@ if __name__ == "__main__":
         # warn the user that this is a tab sep file
         print("\n.tsv file detected, switching delimiter \n")
 
-        text_file.open(output_path, "w")
+        text_file = open(output_path, "a")
         text_file.write("\n.tsv file detected, switching delimiter \n")
         text_file.close()
 
@@ -51,20 +51,32 @@ if __name__ == "__main__":
     # print(type(data))
     # print the file name & location to the console
     print("Getting data from: ", file_path, "\n")
-    # file open dialog to select the file to work on
-    root = tk.Tk()
-    root.withdraw()
-    file_path = filedialog.askopenfilename()
+
 
     # print data shape for reference
-    print("Data shape: ", raw_data.shape[0], "rows by", raw_data.shape[1], "columns \n")
-    print("Column names:\n", raw_data.columns.values, "\n")
+    shapestring = "Data shape: {:d} rows by {:d} columns\n \n".format(raw_data.shape[0],raw_data.shape[1])
+    print(shapestring)
+    colnamestring = "Column names: \n {} \n\n".format(raw_data.columns.values)
+    print(colnamestring)
+
+    #write it to file
+    text_file = open(output_path, "a")
+    text_file.write(shapestring)
+    text_file.write(colnamestring)
+    text_file.close()
+
     # how many sensors are we tracking?
     n_sensors = raw_data['Tools'][0]
     n_sensors = int(n_sensors)
 
     # tell the user
-    print("Dataset contains tracking data from ", n_sensors, " sensors:")
+    sensorstring = "Dataset contains tracking data from {:d} sensors:\n".format(n_sensors)
+    print(sensorstring)
+
+    #print to file
+    text_file = open(output_path, "a")
+    text_file.write(sensorstring)
+    text_file.close()
 
     # find the sensor name columns
     sensor_name_cols = np.linspace(1, ((13 * (n_sensors - 1)) + 1), num=n_sensors, dtype=int)
@@ -75,7 +87,13 @@ if __name__ == "__main__":
     # for each sensor
     for i, n in np.ndenumerate(sensor_name_cols):
         # print the column name
-        print("Sensor ", i[0], ":", raw_data.columns.values[int(n)])
+        sensornamestring = "Sensor {}: {}\n".format(i[0],raw_data.columns.values[int(n)])
+        print(sensornamestring)
+        text_file = open(output_path, "a")
+        text_file.write(sensornamestring)
+        text_file.close()
+
+
 
         # create an array of indices to mask in the raw_data array
         bad_indices = []
@@ -91,7 +109,14 @@ if __name__ == "__main__":
     # remove duplicate bad indices
     bad_indices = list(set(bad_indices))
     percentage_badness = (len(bad_indices) / raw_data.shape[0]) * 100
-    print("\nData contains ", len(bad_indices), " bad values (", round(percentage_badness, 2), "%). Discarding...\n")
+    badnessstring = "\nData contains {} bad values ({:.2f}%). Discarding...".format(len(bad_indices), percentage_badness)
+    print(badnessstring)
+
+    #print to file
+    text_file = open(output_path, "a")
+    text_file.write(badnessstring)
+    text_file.close()
+
 
     # drop the bad data
     clean_data = raw_data.drop(bad_indices, axis=0)
@@ -136,17 +161,29 @@ if __name__ == "__main__":
         DeltaSum = DeltaTxSquared + DeltaTySquared + DeltaTzSquared
         Path_lengths.append(np.divide(np.sum(np.sqrt(DeltaSum)), 1000))
 
-        ax.plot(Tx, Ty, Tz, linewidth=1, label=clean_data.iloc[0, n-3])
+        if(not clean_data.empty):
+            ax.plot(Tx, Ty, Tz, linewidth=1, label=clean_data.iloc[0, n-3])
 
-    print("Sensor path lengths:")
+    sensorpathstring = "Sensor path lengths:\n"
+    text_file = open(output_path, "a")
+    text_file.write(sensorpathstring)
+    text_file.close()
+
+    print(sensorpathstring)
+
     for i, n in np.ndenumerate(sensor_name_cols):
-        print("Sensor", i[0], ":", Path_lengths[i[0]], "meters")
 
+        pathlengthstring = "Sensor {}: {:05.3f} meters\n".format(i[0], Path_lengths[i[0]])
+        print(pathlengthstring)
+        text_file = open(output_path, "a")
+        text_file.write(pathlengthstring)
+        text_file.close()
 
-    plt.xlim((-200, 200))
-    plt.ylim((-200, 300))
-    ax.set_zlim(-600, -100)
-    ax.invert_zaxis()
-    plt.legend()
-    plt.show()
+    if not clean_data.empty:
+        plt.xlim((-200, 200))
+        plt.ylim((-200, 300))
+        ax.set_zlim(-600, -100)
+        ax.invert_zaxis()
+        plt.legend()
+        plt.show()
 
